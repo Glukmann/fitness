@@ -1,29 +1,44 @@
 {% load staticfiles %}
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html lang="ru">
+<!-- Head -->
 <head>
     {% include 'include/head.html' %}
 </head>
 <body>
-{% include 'include/header.html' %}
-<main>
-    <div class="container">
-        {% block content %}{% endblock %}
-    </div>
+{% include 'include/banner.html' %}
 
-    {% include 'include/js.html' %}
-    {% block js %}{% endblock %}
+{% include 'include/popup.html' %}
 
-</main>
-    <script>
-        $(document).ready(function () {
-            $(".button-collapse").sideNav();
-        });
-    </script>
+{% include 'include/about.html' %}
+
+{% include 'include/classes.html' %}
+
+{% include 'include/stats.html' %}
+
+{% include 'include/agent.html' %}
+
+{% include 'include/client.html' %}
+
+{% include 'include/pricing.html' %}
+
+{% include 'include/popup_login.html' %}
+{% include 'include/contact.html' %}
+
+{% block content %}{% endblock %}
+
+
+{% include 'include/footer.html' %}
+
+{% include 'include/js.html' %}
+{% block js %}{% endblock %}
 </body>
-<footer>
-    {% include 'include/footer.html' %}
-</footer>
 </html>
 
         

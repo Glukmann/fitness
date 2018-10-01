@@ -2,44 +2,5 @@
 
 {% block content %}
 
-    <div class="row">
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-content">
-                    <p>Crecon - это open source проект по прогнозированию продаж при помощи нейронных сетей.</p>
-                    <p>Crecon написан на Python и использует библиотеки fbprophet, keras и arima для вычислений.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-content">
-                    <p class="">Загрузите данные и мы их обработаем</p>
-                    <form action="{{ request.build_absolute_uri }}upload/" method="POST" enctype="multipart/form-data"
-                          class="">
-                        <div class="file-field input-field">
-                            <div class="btn">
-                                <span>Файл</span>
-                                <input type="file" name="file"/>
-                            </div>
-                            <div class="file-path-wrapper">
-                                <input class="file-path validate" type="text" placeholder="Загрузите файл с данными">
-                            </div>
-                        </div>
-                        <input class="btn" type="submit" value="Загрузить файл"/>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-content">
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 
 {% endblock %}
