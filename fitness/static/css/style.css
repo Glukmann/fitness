@@ -152,27 +152,27 @@ ul.dropdown-menu {
 /*-- //header --*/
 /*-- banner --*/
 li#callbacks1_s0 {
-    background: url(../images/b2.jpg) no-repeat 0px 0px;
+    background: url('../images/b2.jpg') no-repeat 0px 0px;
     background-size: cover;
 	min-height: 770px;
 }
 li#callbacks1_s1 {
-    background: url(../images/b1.jpg) no-repeat 0px 0px;
+    background: url('../images/b1.jpg') no-repeat 0px 0px;
     background-size: cover;
 	min-height: 770px;
 }
 li#callbacks1_s2 {
-    background: url(../images/b3.jpg) no-repeat 0px 0px;
+    background: url('../images/b3.jpg') no-repeat 0px 0px;
     background-size: cover;
 	min-height: 770px;
 }
 li#callbacks1_s3 {
-    background: url(../images/b4.jpg) no-repeat 0px 0px;
+    background: url('../images/b4.jpg') no-repeat 0px 0px;
     background-size: cover;
 	min-height: 770px;
 }
 .banner1 {
-    background: url(../images/b1.jpg) no-repeat 0px 0px;
+    background: url('../images/b1.jpg') no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -182,7 +182,7 @@ li#callbacks1_s3 {
 	min-height:300px;
 }
 .wthree-different-dot {
-    background: url(../images/dott.png)repeat 0px 0px;
+    background: url('../images/dott.png')repeat 0px 0px;
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
@@ -192,7 +192,7 @@ li#callbacks1_s3 {
 }
 .wthree-different-dot1 {
 	padding: 5em 0;
-    background: url(../images/dott.png)repeat 0px 0px;
+    background: url('../images/dott.png')repeat 0px 0px;
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
@@ -311,7 +311,7 @@ li#callbacks1_s3 {
     text-decoration: none;
     width: 25px;
     height: 30px;
-    background: transparent url(../images/arrows.png) no-repeat left top;
+    background: transparent url('../images/arrows.png') no-repeat left top;
 }
  .callbacks_nav:hover{
   	opacity: 0.3;
@@ -491,7 +491,7 @@ li#callbacks1_s3 {
 
 /*-- stats --*/
 .stats {
-    background: url(../images/b3.jpg) no-repeat fixed;
+    background: url('../images/b3.jpg') no-repeat fixed;
     background-size: cover;
 }
 
@@ -1380,7 +1380,7 @@ p.para-agileits-w3layouts {
 
 /*-- clients --*/
 .clients-main{
-	background: url(../images/testimonial.jpg) no-repeat 0px 0px;
+	background: url('../images/testimonial.jpg') no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1758,7 +1758,7 @@ p.para-w3-agile {
     height: 64px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/top.png") no-repeat 0px 0px;
+	background: url('../images/top.png') no-repeat 0px 0px;
 }
 #toTopHover {
     width: 64px;

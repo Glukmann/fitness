@@ -123,3 +123,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "fitness/static"),
 )
+ADMIN_MEDIA_PREFIX = '/static/admin/'
